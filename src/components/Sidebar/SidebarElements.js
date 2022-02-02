@@ -79,7 +79,7 @@ export const SidebarButton = styled.div`
 
 export const SidebarButtonRoute = styled(LinkR)`
     border-radius: 50px;
-    background: #0abf71;
+    background: rgba(51, 153, 255);
     white-space: nowrap;
     padding: 16px 64px;
     color: white;
@@ -93,6 +93,6 @@ export const SidebarButtonRoute = styled(LinkR)`
     &:hover{
         transition: all 0.2s ease-in-out;
         background: white;
-        color: #0abf71
+        color: rgba(51, 153, 255);
     }
 `
