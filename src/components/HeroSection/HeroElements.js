@@ -20,7 +20,7 @@ export const HeroContainer = styled.div`
     right: 0;
     width:100%;
     height: 100%;
-    background: radial-gradient(rgba(0,0,0,0.5), transparent, transparent);
+    background: radial-gradient(rgba(0,0,0,0.8), transparent, transparent);
     z-index: 2;
 
   }

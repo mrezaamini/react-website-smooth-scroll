@@ -16,9 +16,9 @@ const Hero = () => {
               <VideoBackground autoPlay loop muted src = {Video} type='video/mp4' />
           </HeroBackground>
           <HeroContent>
-              <HeroH1>My title</HeroH1>
+              <HeroH1>Virtual Banking Made Easy</HeroH1>
               <HeroP>
-                  Sign up for a new account today and recieve $120 in credit toward your next payment
+                  Sign up for a new account today and recieve $120 in credit toward your next payment.
               </HeroP>
               <HeroButtonWrapper>
                   <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>

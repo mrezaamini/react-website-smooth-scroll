@@ -40,7 +40,7 @@ export const Icon = styled.div`
 `
 
 export const SidebarWrapper = styled.div`
- color: white;
+ color: green;
 `
 
 export const SidebarMenu = styled.ul`
@@ -66,7 +66,7 @@ export const SidebarLink = styled(LinkS)`
     cursor: pointer;
 
     &:hover{
-        color: #0abf71;
+        color:rgba(51, 153, 255);
         transition: 0.2s ease-in-out;
     }
 
