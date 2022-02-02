@@ -5,13 +5,25 @@ export const HeroContainer = styled.div`
   background: #0c0c0c;
   display: flex;
   justify-content: center;
-  align-item: center;
+  align-items: center;
   padding: 0 30px;
   height: 800px;
   position: relative;
   z-index: 1;
 
-  //TODO : before styles
+  :before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    buttom: 0;
+    right: 0;
+    width:100%;
+    height: 100%;
+    background: radial-gradient(rgba(0,0,0,0.5), transparent, transparent);
+    z-index: 2;
+
+  }
 `
 
 export const HeroBackground = styled.div`
@@ -35,12 +47,12 @@ export const VideoBackground = styled.video`
 
 export const HeroContent = styled.div`
   z-index: 3;
-  max-width: 1200px;
-  position: absolute;
+  //max-width: 1200px;
+  //position: absolute;
   padding: 8px 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  //display: flex;
+  //flex-direction: column;
+  //align-items: center;
 `
 
 export const HeroH1 = styled.h1`

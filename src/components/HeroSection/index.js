@@ -10,7 +10,8 @@ const Hero = () => {
         setHover(!hover)
     }
   return (
-      <HeroContainer>
+      <HeroContainer> <div>kir
+          </div>
           <HeroBackground>
               <VideoBackground autoPlay loop muted src = {Video} type='video/mp4' />
           </HeroBackground>
