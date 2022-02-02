@@ -8,14 +8,21 @@ export const SidebarContainer = styled.aside`
     z-index: 999;
     width: 100%;
     height: 100%;
-    background: #0d0d0d;
+    background: #2d2d2d;
     display: grid;
     align-items: center;
-    top: -100%;
+    top: 0;
     left: 0;
+    right: 0;
     transition : 0.3s ease-in-out;
-    //opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')}
-    //top: ${({ isOpen })=>(isOpen ? '0' : '-100%')}
+    opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
+    top: ${({ isOpen })=>(isOpen ? '0' : '-100%')};
+
+    @media screen and (min-width: 760px){
+        transition: 0.3s ease-in-out;
+        opacity: 0;
+        top: -100%;
+    }
 `
 
 export const CloseIcon = styled(FaTimes)`
