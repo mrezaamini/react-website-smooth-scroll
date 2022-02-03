@@ -1,7 +1,5 @@
 import React from 'react';
 import {Button} from '../ButtonElement';
-import imagem from '../../images/svg-1.svg'
-
 import { InfoContainer,
 InfoWrapper,
 InfoRow,
@@ -38,7 +36,7 @@ const InfoSection = ({lightBackground, buttonLabel, id, imageStart, topLine, hea
                   </InfoCol1>
                   <InfoCol2>
                       <ImageWrapper>
-                          <Image src={imagem} alt={alt}/>
+                          <Image src={image} alt={alt}/>
                           {console.log({image})}
                       </ImageWrapper>
                   </InfoCol2>
