@@ -37,7 +37,6 @@ const InfoSection = ({lightBackground, buttonLabel, id, imageStart, topLine, hea
                   <InfoCol2>
                       <ImageWrapper>
                           <Image src={image} alt={alt}/>
-                          {console.log({image})}
                       </ImageWrapper>
                   </InfoCol2>
               </InfoRow>
