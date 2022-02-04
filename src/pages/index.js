@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
 import HeroSection from '../components/HeroSection'
+import Services from '../components/Services';
 import InfoSection from '../components/infoSection';
 import { homeObjectOne, homeObjectTwo, homeObjectThree } from '../components/infoSection/data';
 
@@ -19,6 +20,7 @@ const Home = () => {
       <HeroSection />
       <InfoSection {...homeObjectOne}/>
       <InfoSection {...homeObjectTwo}/>
+      <Services />
       <InfoSection {...homeObjectThree}/>
       
       </>
