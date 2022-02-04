@@ -13,7 +13,7 @@ InfoCol2,
 ImageWrapper,
 Image } from './infoElements';
 
-const InfoSection = ({lightBackground, buttonLabel, id, imageStart, topLine, headline, lightText, darkText, image, alt, description}) => {
+const InfoSection = ({lightBackground, buttonLabel, id, imageStart, topLine, headline, lightText, darkText, image, alt, description, primary, dark, dark2}) => {
   return (
       <InfoContainer lightBackground={lightBackground} id={id}>
           <InfoWrapper>
@@ -30,7 +30,8 @@ const InfoSection = ({lightBackground, buttonLabel, id, imageStart, topLine, hea
                               {description}
                           </Subtitle>
                           <ButtonWrapper>
-                              <Button to="home">{buttonLabel}</Button>
+                              <Button to="home" smooth={true} duration={500} spy={true} exact={true}
+                              offset={-80} primary={primary ? 1 : 0} dark={dark ? 1: 0} dark2={dark2 ? 1: 0}>{buttonLabel}</Button>
                           </ButtonWrapper>
                       </TextWrapper>
                   </InfoCol1>

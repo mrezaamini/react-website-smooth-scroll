@@ -52,7 +52,7 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.p`
     color: rgba(51, 153, 255);
-    font-size: 16px;
+    font-size: 18px;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
@@ -65,7 +65,7 @@ export const Heading = styled.h1`
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: ${({lightText}) => (lightText ? '010606' : 'white')};
+    color: ${({lightText}) => (lightText ? 'white' : '#1d1d1d')};
 
     @media screen and (max-width: 480px){
         font-size: 32px;
@@ -78,7 +78,7 @@ export const Subtitle = styled.p`
     font-size: 18px;
     line-height: 24px;
     
-    color: ${({darkText}) => (darkText ? '010606' : '#fff')};
+    color: ${({darkText}) => (darkText ? '#1d1d1d' : '#fff')};
 `
 
 export const ButtonWrapper = styled.div`
