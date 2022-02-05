@@ -41,7 +41,7 @@ export const homeObjectOne = {
         description: 'Get everything set up and ready in under 10 minutes. All you need to do is add your informtion and you are ready to go.',
         buttonLabel: 'Start Now',
         imageStart: false,
-        image: require('../../images/svg-6.svg').default,
+        image: require('../../images/svg-15.svg').default,
         alt: "car",
         dark: false,
         primary: false,
