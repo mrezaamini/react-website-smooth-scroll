@@ -19,6 +19,10 @@ export const InfoWrapper = styled.div`
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
+    
+    @media screen and (max-width: 760px){
+        text-align: center;
+    }
 `
 
 export const InfoRow = styled.div`
@@ -77,13 +81,20 @@ export const Subtitle = styled.p`
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
-    
     color: ${({darkText}) => (darkText ? '#1d1d1d' : '#fff')};
+
+    @media screen and (max-width: 760px){
+        max-width: 700px;
+    }
 `
 
 export const ButtonWrapper = styled.div`
     display: flex;
     justify-content: flex-start;
+
+    @media screen and (max-width: 760px){
+        justify-content: center;
+    }
 `
 
 export const ImageWrapper = styled.div`
