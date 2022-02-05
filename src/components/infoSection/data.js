@@ -9,7 +9,7 @@ export const homeObjectOne = {
     buttonLabel: 'Get started',
     imageStart: false,
     image: require('../../images/svg-1.svg').default,
-    alt: "car",
+    alt: "space",
     dark: true,
     primary: true,
     darkText: false
@@ -25,7 +25,7 @@ export const homeObjectOne = {
         buttonLabel: 'Learn More',
         imageStart: true,
         image: require('../../images/svg-11.svg').default,
-        alt: "car",
+        alt: "world",
         dark: false,
         primary: false,
         darkText: true
@@ -41,9 +41,9 @@ export const homeObjectOne = {
         description: 'Get everything set up and ready in under 10 minutes. All you need to do is add your informtion and you are ready to go.',
         buttonLabel: 'Start Now',
         imageStart: false,
-        image: require('../../images/svg-1.svg').default,
+        image: require('../../images/svg-6.svg').default,
         alt: "car",
         dark: false,
         primary: false,
-        darkText: false
+        darkText: true
     }
