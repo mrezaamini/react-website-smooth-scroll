@@ -34,7 +34,6 @@ const Hero = () => {
         <HeroButtonWrapper>
           <Button
             to="signup"
-            to="about"
             smooth={true}
             duration={500}
             primary={true}
@@ -43,7 +42,6 @@ const Hero = () => {
             exact="true"
             offset={-80}
             onMouseEnter={onHover}
-            onMouseLeave={onHover}
           >
             Get Started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
