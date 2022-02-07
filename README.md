@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# React Website With Smooth Scroll
+This project is mainly a landing page for a virtual banking company. This website has smooth scroll, signin route and it is fully responsive. You can use this project to see, practice and learn about react-scroll, react-router-dom, styled-components and how to implement a responsive webpage.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+- [Description](#description)
+- [Available Scripts](#available-scripts)
+- [Support + Feedback](#support--feedback)
+- [Thank You](#thank-you)
+- [License](#license)
+
+## Description:
+In this project you can click on navbar items and it will automatically scroll to that specific part of webpage. For signin website has a specific route that you will get redirected to. If you open website in smaller screens you can see how it will response to the window size and you will see a hamburger menu for navbar items.
+You can see different part of this website in ScreenShots folder.
+
+<img src="https://github.com/mrezaamini/react-website-smooth-scroll/blob/main/ScreenShots/landing.png" alt="landing" />
+
 
 ## Available Scripts
 
@@ -19,52 +32,14 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Support + Feedback
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Include information on how to get support.
+- easily contact me via [email](aminiamini433@yahoo.fr)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Thank You
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Thanks for paying attention, and hope it would be useful!
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+Link to [LICENSE](LICENSE) doc.
